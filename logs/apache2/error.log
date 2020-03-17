@@ -39,3 +39,15 @@ AH00558: apache2: Could not reliably determine the server's fully qualified doma
 AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.19.0.5. Set the 'ServerName' directive globally to suppress this message
 [Tue Mar 17 00:18:54.157046 2020] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.38 (Debian) PHP/7.4.2 configured -- resuming normal operations
 [Tue Mar 17 00:18:54.164431 2020] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.18.0.5. Set the 'ServerName' directive globally to suppress this message
+[Tue Mar 17 11:10:09.156151 2020] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.38 (Debian) PHP/7.4.2 configured -- resuming normal operations
+[Tue Mar 17 11:10:09.157667 2020] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Tue Mar 17 11:12:43.611819 2020] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.21.0.5. Set the 'ServerName' directive globally to suppress this message
+[Tue Mar 17 12:46:04.298577 2020] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.38 (Debian) PHP/7.4.2 configured -- resuming normal operations
+[Tue Mar 17 12:46:04.299219 2020] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Tue Mar 17 13:24:06.604007 2020] [php7:error] [pid 18] [client 172.21.0.1:48814] script '/var/www/html/artigo.php' not found or unable to stat, referer: http://localhost/
+[Tue Mar 17 13:40:30.024573 2020] [php7:error] [pid 18] [client 172.21.0.1:48966] script '/var/www/html/artigo.php' not found or unable to stat, referer: http://localhost/
+[Tue Mar 17 13:40:33.180727 2020] [php7:error] [pid 18] [client 172.21.0.1:48966] script '/var/www/html/artigo.php' not found or unable to stat, referer: http://localhost/
+[Tue Mar 17 13:40:50.343698 2020] [php7:error] [pid 17] [client 172.21.0.1:48980] script '/var/www/html/artigo.php' not found or unable to stat, referer: http://localhost/
+[Tue Mar 17 13:41:53.543903 2020] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
